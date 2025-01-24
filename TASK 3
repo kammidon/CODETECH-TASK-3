@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Name - Portfolio</title>
+  <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+  <!-- Header Section -->
+  <header>
+    <div class="container">
+      <h1>Your Name</h1>
+      <p>Web Developer | Designer | Creator</p>
+    </div>
+  </header>
+
+  <!-- About Section -->
+  <section id="about">
+    <div class="container">
+      <h2>About Me</h2>
+      <p>I'm a passionate web developer with a love for creating intuitive and dynamic user experiences. I specialize in front-end development, and I'm always learning new technologies to enhance my skillset.</p>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills">
+    <div class="container">
+      <h2>Skills</h2>
+      <div class="skills-list">
+        <div class="skill">
+          <h3>HTML</h3>
+          <p>Experienced with structuring web pages and content.</p>
+        </div>
+        <div class="skill">
+          <h3>CSS</h3>
+          <p>Proficient in creating responsive and aesthetically pleasing layouts.</p>
+        </div>
+        <div class="skill">
+          <h3>JavaScript</h3>
+          <p>Skilled in using JavaScript for dynamic content and functionality.</p>
+        </div>
+        <div class="skill">
+          <h3>React</h3>
+          <p>Building efficient and dynamic user interfaces using React.js.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects">
+    <div class="container">
+      <h2>Projects</h2>
+      <div class="project">
+        <h3>Project 1</h3>
+        <p>A brief description of the project. Technologies used: HTML, CSS, JavaScript.</p>
+      </div>
+      <div class="project">
+        <h3>Project 2</h3>
+        <p>A brief description of the project. Technologies used: React, Node.js, MongoDB.</p>
+      </div>
+      <div class="project">
+        <h3>Project 3</h3>
+        <p>A brief description of the project. Technologies used: HTML, CSS, JavaScript, Bootstrap.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <div class="container">
+      <h2>Contact Me</h2>
+      <p>If you'd like to work together or just want to chat, feel free to reach out!</p>
+      <form action="#">
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <textarea placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer Section -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Your Name. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="/js/script.js"></script>
+</body>
+</html>
